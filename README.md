@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Costco Scrape
 
 This web scrape utilizes the BeautifulSoup and Selenium Webdriver libraries to fetch the following data from a Costco product page and load it into a CSV file:
@@ -56,3 +57,6 @@ For every iteration of scraping:
   
 ### Authors:
 - CHUDDY
+=======
+# Health-Provider-Scrape
+>>>>>>> 16e1e6afe965fbeca150bd60950da89ac0c0c38b
