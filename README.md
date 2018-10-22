@@ -5,7 +5,7 @@ This web scrape utilizes the BeautifulSoup and Selenium Webdriver libraries to f
 - Address
 - Phone #
 
-This script ONLY works for the **Anthem** website. It will break for any other website. 
+This script ONLY works for the **Blue Anthem** website. It will break for any other website. 
 
 ## Getting Started
 
