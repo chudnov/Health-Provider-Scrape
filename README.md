@@ -1,16 +1,11 @@
-<<<<<<< HEAD
-# Costco Scrape
+# Health Provider Scrape
 
-This web scrape utilizes the BeautifulSoup and Selenium Webdriver libraries to fetch the following data from a Costco product page and load it into a CSV file:
-- SEO Meta Tags
-- Product Name
-- Product Description
-- Product Specifications
-- Category
-- Price
-- Embedded images
+This web scrape utilizes the BeautifulSoup and Selenium Webdriver libraries to fetch the following data from an Anthem Health Provider directory and load it into a CSV file:
+- Name
+- Address
+- Phone #
 
-This script ONLY works for the **Costco** website. It will break for any other website. 
+This script ONLY works for the **Anthem** website. It will break for any other website. 
 
 ## Getting Started
 
@@ -43,20 +38,14 @@ These instructions will get you a copy of the project up and running on your loc
    - For **Firefox**: `driver = webdriver.Firefox(path_to_driver)`
    - For **Safari**:  `driver = webdriver.Safari(path_to_driver)`
 
-### Running:
-For every iteration of scraping:
-  1. In the **URLS.txt** file, delete all the current urls there
-  2. Paste **10** new links, each on its own line, without quotation lines  
-  3. On the command line, go into the directory of this github repository and run:
-  
-     `python3 scrape.py`
-  
-  4. Open the **OutputData.csv** file and voila, all the data from the above 10 links is loaded!
-  
-  5. Congratulations!
+### Running: 
+1. On the command line, go into the directory of this github repository and run:
+
+   `python3 scrape.py`
+
+2. Wait for the scrape to finish, and then open the **OutputData.csv** file and voila, all the health provider data is loaded!
+
+3. Congratulations!
   
 ### Authors:
 - CHUDDY
-=======
-# Health-Provider-Scrape
->>>>>>> 16e1e6afe965fbeca150bd60950da89ac0c0c38b
